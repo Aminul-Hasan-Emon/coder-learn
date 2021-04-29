@@ -1,0 +1,125 @@
+
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../webfonts/Pacifico-Regular.woff');
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-item {
+    margin-right: 2rem;
+    text-transform: uppercase;
+    font-size: medium;
+}
+.nav-link {
+    color: #000000;
+    font-weight: 600;
+}
+.nav-link:hover {
+    color: #3e54d3;
+    transition: .3s ease;
+}
+.navbar-brand {
+    font-family: 'Pacifico';
+    font-weight: bold;
+    color: #3e54d3;
+    font-size: 2rem;
+}
+
+
+/*! main */
+
+section.main {
+    background: url('../images/bg/header-bg.png') no-repeat center center / cover;
+}
+
+/* Button */
+.download {
+    height: 45px;
+    width: 150px;
+    outline: none;
+    border: none;
+    background: #3e54d3;
+    border-radius: 60px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.download:hover {
+    color: white;
+    background: #4f66e4;
+    transition: all .5s ease;
+}
+.right-img img,
+.left-img img {
+    width: 80%;
+}
+.right-img,
+.left-img {
+    text-align: center;
+}
+
+.heading {
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(43, 43, 112);
+}
+.peragraph {
+    font-size: larger;
+    color: rgb(75, 61, 61);
+    font-weight: 500;
+}
+
+
+.buttons {
+    display: flex;
+}
+.buttons button:first-child {
+    margin-right: 1rem;
+}
+
+.buttons .google-play-btn,
+.buttons .ios-btn {
+    height: 45px;
+    width: 30%;
+    outline: none;
+    border: 2px solid #3e54d3;
+    border-radius: 60px;
+    text-transform: uppercase;
+    color: #3e54d3;
+    font-weight: bold;
+    font-size: 1rem;
+    background: transparent;
+    text-decoration: none;
+    transition: .5s ease;
+}
+.buttons .google-play-btn:hover {
+    background: #3e54d3;
+    color: white;
+}
+.buttons .ios-btn:hover {
+    background: #3e54d3;
+    color: white;
+}
+
+/* Responsive */
+
+@media (max-width: 572px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    .buttons button:first-child {
+        
+        margin-bottom: 1rem;
+    }
+}

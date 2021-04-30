@@ -167,7 +167,7 @@ section.main {
     color: rgb(75, 61, 61);
 }
 .learn-online .secondary-button {
-    width: 170px
+    width: 170px;
 }
 
 /* Tutor */
@@ -243,11 +243,35 @@ section.main {
 }
 
 
+/* Subscribe */
+
+.subscribe {
+    background: url('../images/bg/biography-bg.png') no-repeat center center / cover;
+}
+
+.subscribe .input-wrap {
+    display: flex;
+    padding: .5rem;
+    background: white;
+    border-radius: 5px;
+}
+
+.subscribe .input-wrap input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+.subscribe .input-wrap .secondary-button {
+    border-radius: 5px;
+}
+
 /* Footer */
 
 .footer {
     text-align: center;
-    background: url('../images/bg/biography-bg.png') no-repeat center center / cover;
+    background: rgb(225, 240, 246);
 }
 
 .footer h3 {
